@@ -1,11 +1,13 @@
 {
   "name": "easy-head",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utility library for commonly used meta tags",
   "repository": "git@github.com:lawenlerk/easy-head",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [
     "react",
@@ -14,5 +16,16 @@
     "tags"
   ],
   "author": "lerk@gridhaus.com",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
