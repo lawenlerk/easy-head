@@ -2,6 +2,7 @@
   "name": "@lerkgridhaus/head-tags",
   "version": "1.0.0",
   "description": "Utility library for commonly used meta tags",
+  "repository": "git@github.com:lawenlerk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
