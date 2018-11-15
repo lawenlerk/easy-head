@@ -2,7 +2,7 @@
   "name": "easy-head",
   "version": "1.0.3",
   "description": "Utility library for commonly used meta tags",
-  "repository": "git@github.com:lawenlerk",
+  "repository": "git@github.com:lawenlerk/easy-head",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
