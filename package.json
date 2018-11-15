@@ -17,7 +17,8 @@
   "author": "lerk@gridhaus.com",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.x"
+    "react": "^16.x",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
