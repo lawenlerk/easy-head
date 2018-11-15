@@ -1,5 +1,6 @@
 # Project dependencies
 node_modules
+.idea
 yarn-error.log
 
 # Build directory

@@ -1,11 +1,11 @@
 var path = require('path');
 module.exports = {
-  "mode": "production",
+  mode: "production",
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
@@ -16,7 +16,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-react']
+            presets: ["@babel/preset-env", '@babel/preset-react']
           }
         }
       }
