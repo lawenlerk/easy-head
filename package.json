@@ -1,6 +1,6 @@
 {
-  "name": "@gridhaus/head-tags",
-  "version": "1.0.2",
+  "name": "head-tags",
+  "version": "1.0.3",
   "description": "Utility library for commonly used meta tags",
   "repository": "git@github.com:lawenlerk",
   "main": "index.js",
