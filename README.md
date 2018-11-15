@@ -9,6 +9,7 @@ npm install --save easy-head
 ## Usage
 ```javascript
 import { descriptionTags, imageTags, titleTags } from 'easy-head';
+import { Helmet } from 'react-helmet';
 
 // Use in your React Helmet component
 
