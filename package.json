@@ -1,6 +1,6 @@
 {
   "name": "easy-head",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Utility library for commonly used meta tags",
   "repository": "git@github.com:lawenlerk/easy-head",
   "main": "build/index.js",
@@ -25,9 +25,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2"
-  },
-  "dependencies": {
+    "webpack-cli": "^3.1.2",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-node-resolve": "^3.4.0"
   }
